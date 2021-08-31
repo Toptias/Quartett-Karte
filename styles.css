@@ -1,0 +1,56 @@
+
+#äußererRahmen {
+    width: 240px;
+    height: 350px;
+    background-color: black;
+    border-radius: 20px;
+    padding-top: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.streifen {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(25, 234, 241);
+    margin-top: 10px;
+}
+
+#innererRahmen {
+    width: 210px;
+    height: 325px;
+    background-color: mediumaquamarine;
+    padding-top: 10px;
+}
+
+.Beschreibung {
+    width: 210px;
+    height: 15px;
+    background-color: rgb(25, 234, 241);
+}
+
+img {
+    width: 200px;
+    height: 135px;
+    margin: 5px 5px 5px 5px;
+}
+
+.Namenbox {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(25, 234, 241);
+}
+
+.Wertebox {
+    width: 150px;
+    height: 20px;
+    background-color: goldenrod;
+    margin: 5px 5px 0px 55px;
+}
+
+body{
+    /* background-color: gold; */
+}
